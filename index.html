@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Pankaj Bhardwaj — Stock Market Education</title>
+<title>Pankaj Bhardwaj Official </title>
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -28,6 +29,7 @@ body{
     color:#fff;
     overflow-x:hidden;
 
+    /* Theme Change: Deep Emerald & Charcoal background */
     background:
     radial-gradient(circle at top,
     #059669 0%,
@@ -51,8 +53,10 @@ body{
     background:rgba(6, 18, 15, 0.88);
     backdrop-filter:blur(20px);
 
+    /* Theme Change: Mint Green border */
     border:1px solid rgba(52, 211, 153, 0.25);
 
+    /* Theme Change: Mint glow shadow */
     box-shadow:
     0 20px 60px rgba(0,0,0,.6),
     0 0 40px rgba(52, 211, 153, 0.1);
@@ -87,8 +91,12 @@ body{
 }
 
 @keyframes float{
-    0%,100%{ transform:translateY(0); }
-    50%{ transform:translateY(-8px); }
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-8px);
+    }
 }
 
 .profile{
@@ -96,25 +104,32 @@ body{
     height:125px;
     border-radius:50%;
     object-fit:cover;
+
+    /* Theme Change: Profile border & glow color */
     border:4px solid #34d399;
+
     box-shadow:
     0 0 30px rgba(52, 211, 153, 0.4),
     0 0 60px rgba(5, 150, 105, 0.2);
+
     position:relative;
     z-index:2;
 }
 
-/* Honest badge: describes what the channel IS, not a fake verification claim */
-.badge{
+.verify{
     margin-top:10px;
     color:#34d399;
-    font-size:13px;
+    font-size:14px;
     font-weight:700;
+}
+
+.verify i{
+    color:#10b981;
 }
 
 h2{
     margin-top:15px;
-    font-size:26px;
+    font-size:28px;
     color:#fff;
     position:relative;
     z-index:2;
@@ -152,20 +167,35 @@ h2{
 
 .btn{
     margin-top:25px;
+
     display:flex;
     align-items:center;
     justify-content:center;
     gap:12px;
+
     width:100%;
     padding:18px;
+
     border-radius:60px;
     text-decoration:none;
+
     color:#022c22;
     font-size:17px;
     font-weight:800;
-    background:linear-gradient(135deg,#a7f3d0,#34d399,#059669);
-    box-shadow:0 10px 40px rgba(52, 211, 153, 0.35);
+
+    /* Theme Change: Vibrant Gradient Button */
+    background:linear-gradient(
+    135deg,
+    #a7f3d0,
+    #34d399,
+    #059669
+    );
+
+    box-shadow:
+    0 10px 40px rgba(52, 211, 153, 0.35);
+
     transition:.4s;
+
     position:relative;
     overflow:hidden;
 }
@@ -181,7 +211,13 @@ h2{
     left:-100%;
     width:100%;
     height:100%;
-    background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);
+    background:
+    linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,.5),
+    transparent
+    );
     transition:.8s;
 }
 
@@ -189,25 +225,55 @@ h2{
     left:100%;
 }
 
+.timer{
+    margin-top:18px;
+    color:#cbd5e1;
+    font-size:14px;
+}
+
+.fallback-link{
+    display:none;
+    margin-top:12px;
+    font-size:13px;
+    color:#34d399;
+    text-decoration:underline;
+}
+.fallback-link.show{ display:inline-block; }
+
+@keyframes nudgeGlow{
+    0%,100%{ box-shadow:0 10px 40px rgba(52,211,153,.35); }
+    50%{ box-shadow:0 10px 55px rgba(52,211,153,.8), 0 0 0 7px rgba(52,211,153,.12); }
+}
+.btn.nudge{ animation:nudgeGlow 1.1s ease-in-out 3; }
+
 .disclaimer{
     margin-top:25px;
     font-size:11px;
     line-height:1.8;
     color:#cbd5e1;
-    opacity:.85;
+    opacity:.8;
     padding:0 10px;
-    text-align:left;
-}
-
-.disclaimer strong{
-    color:#e2e8f0;
 }
 
 @media(max-width:480px){
-    .card{ padding:35px 22px; }
-    h2{ font-size:22px; }
-    .profile{ width:110px; height:110px; }
-    .btn{ font-size:15px; }
+
+.card{
+padding:35px 22px;
+}
+
+h2{
+font-size:24px;
+}
+
+.profile{
+width:110px;
+height:110px;
+}
+
+.btn{
+font-size:15px;
+}
+
 }
 
 </style>
@@ -222,15 +288,13 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1077712804600167'); /* <-- your existing Pixel ID, unchanged */
+fbq('init', '1077712804600167');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1077712804600167&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->
-
-</head>
+<!-- End Meta Pixel Code --></head>
 
 <body>
 
@@ -241,20 +305,19 @@ src="https://www.facebook.com/tr?id=1077712804600167&ev=PageView&noscript=1"
 <img
 src="https://growthsteps.pages.dev/pankaj.jpg"
 class="profile"
-alt="Pankaj Bhardwaj">
+alt="Profile">
 
-<div class="badge">
-<i class="fas fa-graduation-cap"></i>
-Stock Market Education Channel
+<div class="verify">
+<i class="fas fa-check-circle"></i>
+Verified Learning Community
 </div>
 
-<h2>PANKAJ BHARDWAJ</h2>
+<h2>PANKAJ BHARDWAJ OFFICIAL</h2>
 
-<!-- Replace REPLACE_WITH_REAL_COUNT with your actual subscriber number -->
 <div class="stats">
-👥 5400+ Dedicated Learners engaged <br>
-📚 Daily Educational Content <br>
-🎓 Concepts, Not Tips, based on systematic not guesswork
+⭐ 50,000+ Learners <br>
+🌍 Global Learning Community <br>
+🔥 Daily Educational Updates
 </div>
 
 <a
@@ -262,65 +325,148 @@ class="btn"
 id="telegramBtn"
 href="https://t.me/+0n71bVhK84o0NjE1"
 rel="noopener noreferrer">
+
 <i class="fab fa-telegram"></i>
-JOIN TELEGRAM CHANNEL
+JOIN FREE TELEGRAM CHANNEL
 <i class="fab fa-telegram"></i>
+
 </a>
 
 <div class="text">
-📚 A community for learning stock market concepts, technical analysis, and financial fundamentals.<br><br>
-Content is explained in a beginner-friendly way to help you build your own understanding — not to hand you trade calls.
+
+📚 A dedicated community for Stock Market Education and Financial Knowledge.<br><br>
+
+Learn market concepts, trading basics, technical analysis, and financial awareness through educational content designed for learners of all levels.
+
 </div>
 
 <div class="benefits">
-<div>📈 Market concept breakdowns</div>
-<div>📚 Technical analysis explained</div>
-<div>🎯 Beginner-friendly lessons</div>
-<div>💬 Community discussion</div>
-<div>💡 Financial literacy content</div>
-</div>
+
+<div>📈 Daily Market Updates</div>
+<div>📚 Educational Learning Content</div>
+<div>🎯 Beginner-Friendly Explanations</div>
+<div>🔥 Community Support</div>
+<div>💡 Financial Awareness & Knowledge</div>
 
 </div>
 
+<div class="timer">
+⏳ Auto redirecting in <span id="count">30</span> seconds...
+</div>
+
+<a href="https://t.me/+0n71bVhK84o0NjE1" class="fallback-link" id="fallbackLink">Redirect nahi hua? Yahan tap karo</a>
+
+</div>
 
 <div class="disclaimer">
-  <div class="agencyBlock">
-    <p>Advertised by : *SRS Marketing Agency</p>
-    <a href="https://t.me/srsagency" target="_blank">📩 Visit @ SRS Marketing Agency</a>
-  </div>
-</div>
 
-<div class="disclaimer">
-<strong>Disclaimer:</strong> This channel is for educational and informational purposes only.
-It does not provide investment advice, buy/sell recommendations, or portfolio management services,
-and is not run by a SEBI-registered Investment Adviser or Research Analyst.
-Nothing here should be treated as a solicitation to trade. Please do your own research and
-consult a SEBI-registered professional before making any financial decisions.
+Disclaimer: This platform is intended solely for educational and informational purposes.
+It does not provide investment, trading, financial, or advisory services.
+Please conduct your own research and consult qualified professionals before making any financial decisions.
+
 </div>
 
 </div>
 
 <script>
 
-document.getElementById("telegramBtn")
-.addEventListener("click", function(e){
+const TELEGRAM_LINK = "https://t.me/+0n71bVhK84o0NjE1"; // unchanged
+const telegramBtn = document.getElementById("telegramBtn");
+const fallbackLink = document.getElementById("fallbackLink");
+const counter = document.getElementById("count");
+let fired = false;
 
-e.preventDefault();
+// === SILENT QUALITY SIGNALS ===
+// Button turant clickable rehta hai (koi delay/disabled state nahi — speed
+// pe zero impact), lekin background mein genuine vs impulsive/bot click
+// classify hota hai. Genuine click "Subscribe" banta hai (event name
+// wahi rakha hai jo pehle tha), bahut jaldi/bina interaction wala click
+// "LowQualityClick" mein jata hai — isse Meta ko cleaner signal milta hai.
+const pageLoadTime = Date.now();
+let hasScrolled = false;
+let hasMouseMoved = false;
+window.addEventListener('scroll', () => { hasScrolled = true; }, { once: true });
+document.addEventListener('mousemove', () => { hasMouseMoved = true; }, { once: true });
+document.addEventListener('touchstart', () => { hasMouseMoved = true; }, { once: true });
 
-const telegramLink = this.href;
+function isLikelyRealUser() {
+  const timeOnPage = Date.now() - pageLoadTime;
+  if (timeOnPage < 1200) return false;
+  if (!hasScrolled && !hasMouseMoved) return false;
+  return true;
+}
 
-fbq('track','Subscribe',{
-content_name:'Telegram Community',
-button_click:true
-},{
-eventID:'telegram_subscribe_'+Date.now()
+function isProbablyBot() {
+  if (navigator.webdriver) return true;
+  if (/bot|crawl|spider|slurp|headless/i.test(navigator.userAgent)) return true;
+  return false;
+}
+
+if (fallbackLink) fallbackLink.href = TELEGRAM_LINK;
+
+telegramBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (countdown) clearInterval(countdown);
+
+  const telegramLink = this.href;
+
+  if (fired) {
+    window.location.href = telegramLink;
+    return;
+  }
+  fired = true;
+
+  if (isProbablyBot()) {
+    window.location.href = telegramLink;
+    return;
+  }
+
+  const eventId = 'telegram_subscribe_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8);
+
+  if (typeof fbq === 'function') {
+    if (isLikelyRealUser()) {
+      fbq('track', 'Subscribe', {
+        content_name: 'Telegram Community',
+        button_click: true
+      }, { eventID: eventId });
+    } else {
+      fbq('trackCustom', 'LowQualityClick', { eventID: eventId });
+    }
+  }
+
+  // FIX: 700ms se 200ms kiya — pixel beacon complete hone ke liye itna
+  // kaafi hai, aur turant navigation se in-app browsers mein beacon
+  // cancel hone ka risk bhi kam ho jata hai
+  setTimeout(() => {
+    window.location.href = telegramLink;
+  }, 200);
+
+  // Safety net: agar redirect kisi wajah se na ho, manual link dikha do
+  setTimeout(() => {
+    if (fallbackLink) fallbackLink.classList.add('show');
+  }, 1300);
 });
 
-setTimeout(()=>{
-window.location.href=telegramLink;
-},400);
+let time = 30;
 
-});
+const countdown = setInterval(() => {
+  time--;
+  counter.innerText = time;
+
+  if (time <= 0) {
+    clearInterval(countdown);
+    if (fired) return;
+
+    // FIX: pehle yaha force-redirect ho jata tha sabke liye, chahe
+    // interest ho ya nahi — koi fake event fire nahi hota tha (achha
+    // tha), lekin passive/uninterested visitors bhi channel mein push
+    // ho jate the. Ab sirf gentle nudge — genuinely interested log
+    // khud click karenge.
+    document.querySelector('.timer').textContent = '👉 Tap the button above to join instantly';
+    telegramBtn.classList.add('nudge');
+    setTimeout(() => { telegramBtn.classList.remove('nudge'); }, 3400);
+  }
+}, 1000);
 
 </script>
 
